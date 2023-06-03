@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Решта коду */
+.hero-container {
+  /* width: 335px; */
+  /* height: 621px; */
+  background-color: #1e1823;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 395px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
+    url(../img/herobg/herobgmobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+/* приховування заголовка */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.hero-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 32px;
+}
+.hero-nav-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: baseline;
+}
+.buy-now-btn {
+  cursor: pointer;
+  /* width: 120px; */
+  /* height: 41px; */
+  padding: 12px 28px;
+  border: transparent;
+  background: #fd9222;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+.hero-nav-link {
+  display: flex;
+  /* width: 159px; */
+  /* height: 41px; */
+  padding: 12px 28px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+  /* identical to box height */
+
+  color: #ffffff;
+}
