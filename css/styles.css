@@ -63,6 +63,7 @@
   font-size: 14px;
   line-height: 1.2;
   color: #ffffff;
+  transition: background-color, color;
 }
 .buy-now-btn:hover,
 .buy-now-btn:focus {
@@ -83,6 +84,12 @@
   line-height: 1.2;
   text-decoration: none;
   color: #ffffff;
+  transition: color, border-color;
+}
+.hero-nav-link:hover,
+.hero-nav-link:focus {
+  border-color: #fd9222;
+  color: #fd9222;
 }
 .hero-scroll-link {
   display: flex;
@@ -96,9 +103,19 @@
   text-decoration: none;
   letter-spacing: -0.03em;
   color: #ffffff;
+  transition: color;
+}
+.hero-scroll-link:hover,
+.hero-scroll-link:focus {
+  color: #fd9222;
 }
 .hero-skroll-icon {
   background-color: white;
   border-radius: 50%;
   fill: #fd9222;
+  transition: background-color, fill;
+}
+.hero-skroll-icon:hover {
+  background-color: #fd9222;
+  fill: #ffffff;
 }
